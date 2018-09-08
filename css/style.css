@@ -1,0 +1,25 @@
+body{
+  padding: 0;
+  background-color: rgb(54,56,62);
+}
+.nav-all{
+  background-color: white;
+}
+
+.logo img{
+  width: 100px;
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li{
+  display: inline;
+}
+
+.menu li a{
+  padding: 12px;
+}
