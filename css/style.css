@@ -23,3 +23,29 @@ body{
 .menu li a{
   padding: 12px;
 }
+
+.main-div{
+  background:url("../images/adult-boy-child-325521.jpg") no-repeat center;
+  width: 100%;
+  min-height: 200px;
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.center-content{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.experiencia-content{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.perfil img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
