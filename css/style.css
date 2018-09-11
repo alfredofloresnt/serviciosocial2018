@@ -1,13 +1,14 @@
 body{
   padding: 0;
-  background-color: rgb(54,56,62);
+  /*background-color: rgb(54,56,62);*/
+  background-color: white;
 }
 .nav-all{
   background-color: white;
 }
 
 .logo img{
-  width: 100px;
+  width: 70px;
 }
 .menu{
   list-style-type: none;
@@ -34,6 +35,10 @@ body{
   padding-bottom: 100px;
 }
 
+.main-div p{
+  padding: 25px;
+}
+
 .center-content{
   text-align: center;
   vertical-align: middle;
@@ -41,11 +46,45 @@ body{
 
 .experiencia-content{
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+.testimonios-div{
+  background-color: #a04f92;
+}
+
+.testimonios-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .perfil img{
   border-radius: 50%;
   width: 200px;
   height: 200px;
+}
+
+.my-button{
+  background-color: #a04f92;
+  padding: 1rem;
+  color: white;
+}
+
+.menu a{
+  color: #a04f92;
+}
+
+.menu a:hover{
+    background-color: #a04f92;
+    color: white;
+    text-decoration: none;
+}
+
+.my-button:hover{
+  background-color: #d193b8;
+  color: white;
+  text-decoration: none;
+}
+.blockquote{
+  color: white;
 }
