@@ -27,7 +27,7 @@ body{
 }
 
 .main-div{
-  background:url("../images/adult-boy-child-325521.jpg") no-repeat center;
+  background:url("../images/banner-dark.jpg") no-repeat center;
   width: 100%;
   min-height: 200px;
   background-size: cover;
@@ -45,6 +45,14 @@ body{
   vertical-align: middle;
 }
 
+.experiencia-div{
+  background:url("../images/profile-bg-edited.jpg") no-repeat center;
+  width: 100%;
+  min-height: 200px;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .experiencia-content{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -76,8 +84,6 @@ background: #9e0782;
 }
 
 .menu a:hover{
-    background-color: #a04f92;
-    color: white;
     text-decoration: none;
 }
 
@@ -85,6 +91,7 @@ background: #9e0782;
   background-color: #d193b8;
   color: white;
   text-decoration: none;
+
 }
 
 .blockquote-footer{
@@ -114,4 +121,59 @@ background: #9e0782;
 }
 .footer a{
   color: white;
+}
+
+
+.nobr{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.programa-details-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.detail-element{
+  padding: 25px;
+}
+
+.icon{
+  height: 48px;
+  width: 48px;
+
+}
+
+span.icon{
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#icon2{
+  background: url('../images/icons/icon2.png');
+  background-size: cover;
+  height: 32px;
+  width: 32px;
+}
+
+#icon3{
+  background: url('../images/icons/icon3.png');
+  background-size: cover;
+  height: 32px;
+  width: 32px;
+  display: block;
+}
+
+#icon4{
+  background: url('../images/icons/icon4.png');
+  background-size: cover;
+  height: 32px;
+  width: 32px;
+  display: block;
+}
+
+.programa-element{
+  display: inline;
 }
