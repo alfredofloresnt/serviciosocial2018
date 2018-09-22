@@ -1,3 +1,7 @@
+:root{
+  --color-primary:#96229a;
+  --color-secondary:#c067bb;
+}
 body{
   padding: 0;
   margin-bottom: 0px;
@@ -24,6 +28,11 @@ body{
 
 .menu li a{
   padding: 12px;
+}
+
+.menu li a:hover{
+  padding: 12px;
+  text-decoration: underline;
 }
 
 .main-div{
@@ -59,7 +68,8 @@ body{
 }
 
 .testimonios-div{
-background: #9e0782;
+  background-image: url(../images/testimonios-background.jpg);
+  background-size: cover;
 }
 
 .testimonios-content{
@@ -67,20 +77,23 @@ background: #9e0782;
   padding-bottom: 50px;
 }
 
-.perfil img{
+.perfil{
+  background-image: url("../images/profile.jpg");
+  background-size: cover;
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  margin: 0 auto;
 }
 
 .my-button{
-  background-color: #a04f92;
+  background-color: var(--color-primary);
   padding: 1rem;
   color: white;
 }
 
 .menu a{
-  color: #a04f92;
+  color: var(--color-primary);
 }
 
 .menu a:hover{
@@ -88,7 +101,7 @@ background: #9e0782;
 }
 
 .my-button:hover{
-  background-color: #d193b8;
+  background-color: var(--color-secondary);
   color: white;
   text-decoration: none;
 
@@ -97,6 +110,7 @@ background: #9e0782;
 .blockquote-footer{
   color: white;
 }
+
 .blockquote{
   color: white;
 }
@@ -115,7 +129,7 @@ background: #9e0782;
 }
 
 .footer{
-  background-color: #a04f92;
+  background-color: var(--color-primary);
   min-height: 50px;
   padding: 10px;
 }
@@ -140,40 +154,54 @@ background: #9e0782;
 }
 
 .icon{
-  height: 48px;
-  width: 48px;
+  height: 42px;
+  width: 42px;
 
 }
 
 span.icon{
-
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-#icon2{
-  background: url('../images/icons/icon2.png');
-  background-size: cover;
-  height: 32px;
-  width: 32px;
-}
-
-#icon3{
-  background: url('../images/icons/icon3.png');
-  background-size: cover;
-  height: 32px;
-  width: 32px;
-  display: block;
-}
-
-#icon4{
-  background: url('../images/icons/icon4.png');
-  background-size: cover;
-  height: 32px;
-  width: 32px;
-  display: block;
-}
 
 .programa-element{
   display: inline;
+}
+
+.testimonio-image{
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center; 
+}
+
+#testimonio1{
+  background-image: url("../images/testimonio1.jpg");
+}
+
+#testimonio2{
+  background-image: url("../images/testimonio2.jpg");
+}
+
+#testimonio3{
+  background-image: url("../images/testimonio3.jpg");
+}
+
+.contacto-form{
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.contacto-div{
+  padding: 50px;
+}
+
+.contacto-input{
+  margin: 0 auto;
 }
